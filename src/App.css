@@ -1,0 +1,18 @@
+/* Estilizando links normais, visitados e com hover */
+a,
+a:visited,
+a:hover,
+a:active {
+    color: white;
+    /* Define a cor do texto como branco */
+    text-decoration: none;
+    /* Remove o sublinhado do link */
+    transition: color 0.3s ease-in-out;
+    /* Suaviza a transição de cor */
+}
+
+/* Efeito ao passar o mouse, se desejar manter algum destaque */
+a:hover {
+    color: #CCCCCC;
+    /* Muda a cor ao passar o mouse, se necessário */
+}
