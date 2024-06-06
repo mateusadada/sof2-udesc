@@ -1,0 +1,35 @@
+.tips-container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.tip {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tip h2 {
+    color: #4CAF50;
+}
+
+.tip p {
+    font-size: 16px;
+    color: #333;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #CCCCCC;
+}
