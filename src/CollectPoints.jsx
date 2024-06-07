@@ -41,35 +41,35 @@ function CollectPoints() {
         },
         {
             id: 4,
-            name: "Ponto de coleta 4",
-            lat: -26.218220,
-            lng: -49.373793,
-            imageUrl: 'https://www.motelkolyna.com.br/admin2/uploads/imagens/k2st12_1.jpg',
-            address: 'Rodovia SC 301, 2900 - Progresso, São Bento do Sul - SC'
+            name: "Brasília",
+            lat: -26.23242215343466,
+            lng: -49.36090281962348,
+            imageUrl: 'https://sbs-reciclagem-eletronica.s3.amazonaws.com/5a0dbc820a3185d2440a-ecoponto_brasilia_1.jpeg',
+            address: 'Av. dos Imigrantes, 1046 - Brasília, São Bento do Sul - SC, 89281-552 (No EcoParque SAME. Próximo ao 23º Batalhão da Polícia Militar)'
         },
         {
             id: 5,
-            name: "Ponto de coleta 5",
-            lat: -26.218220,
-            lng: -49.373793,
-            imageUrl: 'https://www.motelkolyna.com.br/admin2/uploads/imagens/k2st12_1.jpg',
-            address: 'Rodovia SC 301, 2900 - Progresso, São Bento do Sul - SC'
+            name: "Local de Entrega Voluntária",
+            lat: -26.24029492936397,
+            lng: -49.357798976203604,
+            imageUrl: 'https://sbs-reciclagem-eletronica.s3.amazonaws.com/062627c2bfe533ba5aac-image019.jpg',
+            address: 'R. Ladislau Jelinski, 200 - Brasília, São Bento do Sul - SC, 89280-816 (Ao final da rua)'
         },
         {
             id: 6,
-            name: "Ponto de coleta 6",
-            lat: -26.218220,
-            lng: -49.373793,
-            imageUrl: 'https://www.motelkolyna.com.br/admin2/uploads/imagens/k2st12_1.jpg',
-            address: 'Rodovia SC 301, 2900 - Progresso, São Bento do Sul - SC'
+            name: "Germânia Super Center",
+            lat: -26.243896433292367,
+            lng: -49.375834719344695,
+            imageUrl: 'https://sbs-reciclagem-eletronica.s3.amazonaws.com/56e04add23affe091fd2-P_20210714_110130_1.jpg',
+            address: 'R. Capitão Ernesto Nunes, 669 - Progresso, São Bento do Sul - SC, 89280-388 (Na entrada do supermercado)'
         },
         {
             id: 7,
-            name: "Ponto de coleta 7",
-            lat: -26.218220,
-            lng: -49.373793,
-            imageUrl: 'https://www.motelkolyna.com.br/admin2/uploads/imagens/k2st12_1.jpg',
-            address: 'Rodovia SC 301, 2900 - Progresso, São Bento do Sul - SC'
+            name: "Centro",
+            lat: -26.2519533738534,
+            lng: -49.37957418360799,
+            imageUrl: 'https://sbs-reciclagem-eletronica.s3.amazonaws.com/1ed6baa039a5a64c338b-Ecoponto_Centro.jpg',
+            address: 'R. Benjamin Constant, 118 - Centro, São Bento do Sul - SC, 89280-484 (Em frente ao SESI Clínica Médica e Odontológica)'
         },
         {
             id: 8,
