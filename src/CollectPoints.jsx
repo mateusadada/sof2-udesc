@@ -7,7 +7,7 @@ import L from 'leaflet';
 
 // Icone personalizado para os marcadores
 const icon = L.icon({
-    iconUrl: 'https://w7.pngwing.com/pngs/380/554/png-transparent-recycle-logo-recycling-symbol-icon-recycle-leaf-recycling-waste-thumbnail.png', // Adicione o caminho para o ícone desejado
+    iconUrl: 'https://www.svgrepo.com/show/228603/recycling-trash.svg', // Adicione o caminho para o ícone desejado
     iconSize: [25, 41],
     iconAnchor: [12, 41],
 });
@@ -17,15 +17,87 @@ function CollectPoints() {
     const points = [
         {
             id: 1,
-            name: "Ponto de Coleta 1",
-            lat: -26.300622,
-            lng: -49.350425,
-            imageUrl: 'data:image/jpeg;base64,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',
-            address: 'R. da Cascata, S/N - Centro, Campo Alegre - SC, 89294-000'
+            name: "Mato Preto",
+            lat: -26.196245468844964,
+            lng: -49.39361584849793,
+            imageUrl: 'https://sbs-reciclagem-eletronica.s3.amazonaws.com/d612c41e8a132eb1fd0a-image009.jpg',
+            address: 'R. Adélia Lili Schneider, S/N - Mato Preto, São Bento do Sul - SC, 89285-030 (Em frente ao posto de saúde Mato Preto)'
         },
         {
             id: 2,
-            name: "Ponto de Coleta 2",
+            name: "Oxford",
+            lat: -26.22142352346326,
+            lng: -49.40292818666018,
+            imageUrl: 'https://sbs-reciclagem-eletronica.s3.amazonaws.com/b1ad1588f569b1b9364a-image015.jpg',
+            address: 'R. Francisco Spitzner, S/N - Oxford, São Bento do Sul - SC, 89285-050 (Na praça Leopoldo Rudnick)'
+        },
+        {
+            id: 3,
+            name: "Alpeste",
+            lat: -26.251507370721168,
+            lng: -49.43573424904653,
+            imageUrl: 'https://sbs-reciclagem-eletronica.s3.amazonaws.com/993f7ed78049afa38f73-image003.jpg',
+            address: 'R. Rosane Grossl, S/N - Alpeste, São Bento do Sul - SC, 89289-090 (Ao lado do ponto de ônibus)'
+        },
+        {
+            id: 4,
+            name: "Ponto de coleta 4",
+            lat: -26.218220,
+            lng: -49.373793,
+            imageUrl: 'https://www.motelkolyna.com.br/admin2/uploads/imagens/k2st12_1.jpg',
+            address: 'Rodovia SC 301, 2900 - Progresso, São Bento do Sul - SC'
+        },
+        {
+            id: 5,
+            name: "Ponto de coleta 5",
+            lat: -26.218220,
+            lng: -49.373793,
+            imageUrl: 'https://www.motelkolyna.com.br/admin2/uploads/imagens/k2st12_1.jpg',
+            address: 'Rodovia SC 301, 2900 - Progresso, São Bento do Sul - SC'
+        },
+        {
+            id: 6,
+            name: "Ponto de coleta 6",
+            lat: -26.218220,
+            lng: -49.373793,
+            imageUrl: 'https://www.motelkolyna.com.br/admin2/uploads/imagens/k2st12_1.jpg',
+            address: 'Rodovia SC 301, 2900 - Progresso, São Bento do Sul - SC'
+        },
+        {
+            id: 7,
+            name: "Ponto de coleta 7",
+            lat: -26.218220,
+            lng: -49.373793,
+            imageUrl: 'https://www.motelkolyna.com.br/admin2/uploads/imagens/k2st12_1.jpg',
+            address: 'Rodovia SC 301, 2900 - Progresso, São Bento do Sul - SC'
+        },
+        {
+            id: 8,
+            name: "Ponto de coleta 8",
+            lat: -26.218220,
+            lng: -49.373793,
+            imageUrl: 'https://www.motelkolyna.com.br/admin2/uploads/imagens/k2st12_1.jpg',
+            address: 'Rodovia SC 301, 2900 - Progresso, São Bento do Sul - SC'
+        },
+        {
+            id: 9,
+            name: "Ponto de coleta 9",
+            lat: -26.218220,
+            lng: -49.373793,
+            imageUrl: 'https://www.motelkolyna.com.br/admin2/uploads/imagens/k2st12_1.jpg',
+            address: 'Rodovia SC 301, 2900 - Progresso, São Bento do Sul - SC'
+        },
+        {
+            id: 10,
+            name: "Ponto de coleta 10",
+            lat: -26.218220,
+            lng: -49.373793,
+            imageUrl: 'https://www.motelkolyna.com.br/admin2/uploads/imagens/k2st12_1.jpg',
+            address: 'Rodovia SC 301, 2900 - Progresso, São Bento do Sul - SC'
+        },
+        {
+            id: 11,
+            name: "Ponto de coleta 11",
             lat: -26.218220,
             lng: -49.373793,
             imageUrl: 'https://www.motelkolyna.com.br/admin2/uploads/imagens/k2st12_1.jpg',
@@ -36,11 +108,11 @@ function CollectPoints() {
     return (
         <div>
             <header className="header">
-                <h1>Bem-vindo ao EducaRecicla</h1>
+                <h1 className='header_h1'>Bem-vindo ao EducaRecicla</h1>
                 <nav>
-                    <a href="learn-recycling">Aprenda a Reciclar</a>
-                    <a href="/collect-points">Pontos de Coleta</a>
-                    <a href="/sustainability-tips">Dicas de Sustentabilidade</a>
+                    <a href="learn-recycling">Aprenda a reciclar</a>
+                    <a href="/collect-points">Pontos de coleta</a>
+                    <a href="/sustainability-tips">Dicas de sustentabilidade</a>
                 </nav>
             </header>
             <div className="map-wrapper">  {/* Contêiner Pai */}
@@ -54,7 +126,7 @@ function CollectPoints() {
                                 <div>
                                     <h2>{point.name}</h2>
                                     <img src={point.imageUrl} alt={point.name} style={{ width: '100%', height: 'auto' }} />
-                                    <p>{point.address}</p>
+                                    <p className='point_address'>{point.address}</p>
                                     <a href={`https://www.google.com/maps/dir/?api=1&destination=${point.lat},${point.lng}`} target="_blank">Abrir Rota</a>
                                 </div>
                             </Popup>

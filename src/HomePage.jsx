@@ -5,11 +5,11 @@ function HomePage() {
     return (
         <div>
             <header className="header">
-                <h1>Bem-vindo ao EducaRecicla</h1>
+                <h1 className='header_h1'>Bem-vindo ao EducaRecicla</h1>
                 <nav>
-                    <a href="learn-recycling">Aprenda a Reciclar</a>
-                    <a href="/collect-points">Pontos de Coleta</a>
-                    <a href="/sustainability-tips">Dicas de Sustentabilidade</a>
+                    <a href="learn-recycling">Aprenda a reciclar</a>
+                    <a href="/collect-points">Pontos de coleta</a>
+                    <a href="/sustainability-tips">Dicas de sustentabilidade</a>
                 </nav>
             </header>
 
