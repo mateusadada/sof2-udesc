@@ -5,7 +5,7 @@ function SustainabilityTips() {
     const tips = [
         {
             id: 1,
-            title: "Reduza o Uso de Plásticos",
+            title: "Reduza o uso de plásticos",
             content: "Evite produtos que vêm em embalagens de plástico sempre que possível. Opte por alternativas reutilizáveis ou biodegradáveis."
         },
         {
@@ -15,10 +15,44 @@ function SustainabilityTips() {
         },
         {
             id: 3,
-            title: "Economize Energia",
+            title: "Economize energia",
             content: "Desligue luzes e eletrônicos quando não estiverem em uso. Considere mudar para lâmpadas de LED, que são mais eficientes."
         },
-        // Adicione mais dicas conforme necessário
+        {
+            id: 4,
+            title: "Use transporte sustentável",
+            content: "Sempre que possível, caminhe, ande de bicicleta ou use transporte público. Compartilhar caronas também ajuda a reduzir a pegada de carbono."
+        },
+        {
+            id: 5,
+            title: "Economize água",
+            content: "Reduza o tempo no chuveiro e conserte vazamentos. Utilize dispositivos de economia de água, como redutores de fluxo em torneiras e chuveiros."
+        },
+        {
+            id: 6,
+            title: "Apoie o comércio local",
+            content: "Compre de produtores locais e de mercados de agricultores para reduzir a pegada de carbono associada ao transporte de alimentos."
+        },
+        {
+            id: 7,
+            title: "Recicle corretamente",
+            content: "Separe seus resíduos e recicle de acordo com as diretrizes locais. Certifique-se de limpar os materiais recicláveis para evitar contaminação."
+        },
+        {
+            id: 8,
+            title: "Utilize produtos de limpeza ecológicos",
+            content: "Opte por produtos de limpeza naturais e ecológicos. Você também pode fazer seus próprios produtos usando ingredientes como vinagre e bicarbonato de sódio."
+        },
+        {
+            id: 9,
+            title: "Reduza o consumo de papel",
+            content: "Evite impressões desnecessárias e opte por versões digitais sempre que possível. Utilize ambos os lados do papel ao imprimir."
+        },
+        {
+            id: 10,
+            title: "Plante árvores",
+            content: "Plante árvores e arbustos em sua comunidade para melhorar a qualidade do ar, fornecer sombra e criar habitats para a vida selvagem."
+        }
     ];
 
     return (
@@ -33,7 +67,7 @@ function SustainabilityTips() {
             </header>
 
             <div className="tips-container">
-                <h1>Dicas de Sustentabilidade</h1>
+                <h1>Dicas de sustentabilidade</h1>
                 {tips.map(tip => (
                     <div key={tip.id} className="tip">
                         <h2>{tip.title}</h2>
@@ -43,8 +77,8 @@ function SustainabilityTips() {
 
             </div>
             <footer className="footer">
-                <p>Projeto desenvolvido para a disciplina de Engenharia de software || - UDESC</p>
-                <p>Alunos: Wellinton Matheus Karvat, Isabelly Ribeiro e Mateus Adada </p>
+                <p>Projeto desenvolvido para a disciplina de Engenharia de software II - UDESC</p>
+                <p>Alunos: Wellinton Matheus Karvat, Isabelly Ribeiro e Mateus Adada</p>
                 <p>© 2024 EducaRecicla.</p>
             </footer>
         </div>

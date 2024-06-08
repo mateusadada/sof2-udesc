@@ -4,11 +4,10 @@ import './LearnRecycling.css';
 function LearnRecycling() {
     const videos = [
         {
-            id: "dQw4w9WgXcQ", // O ID do vídeo do YouTube
-            title: "Importância da Reciclagem", // Título do vídeo
-            description: "Este vídeo explica por que a reciclagem é crucial para nosso meio ambiente." // Descrição breve
+            id: "dQw4w9WgXcQ",
+            title: "Importância da reciclagem",
+            description: "Este vídeo explica por que a reciclagem é crucial para nosso meio ambiente."
         },
-        // Adicione mais objetos para cada vídeo que deseja incluir
     ];
 
     return (
@@ -22,7 +21,7 @@ function LearnRecycling() {
                 </nav>
             </header>
             <div className="video-container">
-                <h1>Aprenda a Reciclar</h1>
+                <h1>Aprenda a reciclar</h1>
                 {videos.map(video => (
                     <div key={video.id} className="video">
                         <h2>{video.title}</h2>
@@ -41,8 +40,8 @@ function LearnRecycling() {
 
             </div>
             <footer className="footer">
-                <p>Projeto desenvolvido para a disciplina de Engenharia de software || - UDESC</p>
-                <p>Alunos: Wellinton Matheus Karvat, Isabelly Ribeiro e Mateus Adadas</p>
+                <p>Projeto desenvolvido para a disciplina de Engenharia de software II - UDESC</p>
+                <p>Alunos: Wellinton Matheus Karvat, Isabelly Ribeiro e Mateus Adada</p>
                 <p>© 2024 EducaRecicla.</p>
             </footer>
         </div>
