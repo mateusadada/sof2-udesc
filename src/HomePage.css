@@ -9,7 +9,14 @@
     scrollbar-color: rgba(0, 0, 0, 0.5) rgb(148, 186, 101);
 }
 
+body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
+    flex: 1;
     font-family: 'Arial', sans-serif;
     color: #333;
     margin: 0 auto;
@@ -53,10 +60,20 @@
 
 .footer {
     width: 100%;
-    position: fixed;
-    bottom: 0;
     background-color: #4CAF50;
     color: white;
     text-align: center;
     padding: 20px 0;
+    position: relative;
+}
+
+.github-logo {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+
+.github-logo:hover {
+    transform: scale(1.1);
 }

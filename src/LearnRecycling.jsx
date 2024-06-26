@@ -6,27 +6,22 @@ function LearnRecycling() {
         {
             id: "ITur0JNJZos",
             title: "Importância da reciclagem",
-            description: "Este vídeo explica por que a reciclagem é crucial para nosso meio ambiente."
+            description: "Por que a reciclagem é crucial para nosso meio ambiente?"
         },
         {
             id: "ICyutt3iQ2g",
             title: "Passos básicos para reciclar",
-            description: "Este vídeo explica Passos básicos para reciclar."
+            description: "Conheça os passos básicos para reciclar"
         },
         {
             id: "yph1W5stHHY",
-            title: "Como reciclar o lixo de casa passo a passo",
-            description: "Reciclando o lixo de caso passo a passo."
+            title: "Como reciclar o lixo de casa",
+            description: "Reciclando o lixo de casa passo a passo"
         },
         {
             id: "gl0vNEtT-zU",
-            title: "Vidro quebrado e objetos cortantes: saiba como descartar esses itens",
-            description: "Passo a passo para descarte de objetos cortantes e vidros."
-        },
-        {
-            id: "xNYZQpT6aB0",
-            title: "Como separar o SEU LIXO em CASA",
-            description: "Passo a passo para separar o lixo de casa de forma eficiente."
+            title: "Como descartar vidro e objetos cortantes",
+            description: "Aprenda a descartar objetos cortantes e vidros"
         },
     ];
 

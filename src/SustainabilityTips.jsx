@@ -68,7 +68,7 @@ function SustainabilityTips() {
 
             <div className="content-wrap">
                 <div className="tips-container">
-                    <h1>Dicas de sustentabilidade</h1>
+                    <h1 id='header-text'>Dicas de sustentabilidade</h1>
                     {tips.map(tip => (
                         <div key={tip.id} className="tip">
                             <h2>{tip.title}</h2>

@@ -5,7 +5,6 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 
 
-// Icone personalizado para os marcadores
 const icon = L.icon({
     iconUrl: 'https://www.svgrepo.com/show/228603/recycling-trash.svg',
     iconSize: [25, 41],

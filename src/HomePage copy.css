@@ -1,28 +1,18 @@
 .container {
     min-height: 100vh;
-    /* Altura mínima para cobrir a altura da tela */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* Espaçamento entre os elementos */
     padding-bottom: 60px;
-    /* Espaço extra na parte inferior para o rodapé */
 }
-
 
 .header {
     width: 100%;
-    /* Faz o cabeçalho ocupar toda a largura da tela */
     background-color: #4CAF50;
-    /* Cor de fundo */
     color: white;
-    /* Cor do texto */
     padding: 20px 0;
-    /* Espaçamento vertical */
     text-align: center;
-    /* Alinha o texto ao centro */
 }
-
 
 .header nav a {
     color: white;
@@ -44,17 +34,10 @@
 
 .footer {
     width: 100%;
-    /* Faz o rodapé ocupar toda a largura da tela */
     position: fixed;
-    /* Fixa o rodapé na posição */
     bottom: 0;
-    /* Posiciona na parte inferior da janela do navegador */
     background-color: #4CAF50;
-    /* Cor de fundo */
     color: white;
-    /* Cor do texto */
     text-align: center;
-    /* Centraliza o texto */
     padding: 20px 0;
-    /* Espaçamento vertical */
 }

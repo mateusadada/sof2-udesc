@@ -1,11 +1,8 @@
 .map-wrapper {
     display: flex;
     justify-content: center;
-    /* Centraliza horizontalmente */
     align-items: center;
-    /* Centraliza verticalmente */
     height: 100vh;
-    /* Altura total da janela de visualização */
 }
 
 .map-container {
@@ -15,5 +12,4 @@
 
 img {
     max-width: 100%;
-    /* Garante que a imagem não exceda a largura do popup */
 }
