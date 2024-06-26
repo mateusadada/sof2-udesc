@@ -4,9 +4,29 @@ import './LearnRecycling.css';
 function LearnRecycling() {
     const videos = [
         {
-            id: "dQw4w9WgXcQ",
+            id: "ITur0JNJZos",
             title: "Importância da reciclagem",
             description: "Este vídeo explica por que a reciclagem é crucial para nosso meio ambiente."
+        },
+        {
+            id: "ICyutt3iQ2g",
+            title: "Passos básicos para reciclar",
+            description: "Este vídeo explica Passos básicos para reciclar."
+        },
+        {
+            id: "yph1W5stHHY",
+            title: "Como reciclar o lixo de casa passo a passo",
+            description: "Reciclando o lixo de caso passo a passo."
+        },
+        {
+            id: "gl0vNEtT-zU",
+            title: "Vidro quebrado e objetos cortantes: saiba como descartar esses itens",
+            description: "Passo a passo para descarte de objetos cortantes e vidros."
+        },
+        {
+            id: "xNYZQpT6aB0",
+            title: "Como separar o SEU LIXO em CASA",
+            description: "Passo a passo para separar o lixo de casa de forma eficiente."
         },
     ];
 
@@ -22,28 +42,24 @@ function LearnRecycling() {
             </header>
             <div className="video-container">
                 <h1>Aprenda a reciclar</h1>
-                {videos.map(video => (
-                    <div key={video.id} className="video">
-                        <h2>{video.title}</h2>
-                        <iframe
-                            src={`https://www.youtube.com/embed/${video.id}`}
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                            title={video.title}
-                            width="560"
-                            height="315"
-                        ></iframe>
-                        <p>{video.description}</p>
-                    </div>
-                ))}
-
+                <div className="videos">
+                    {videos.map(video => (
+                        <div key={video.id} className="video">
+                            <h2>{video.title}</h2>
+                            <iframe
+                                src={`https://www.youtube.com/embed/${video.id}`}
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                                title={video.title}
+                                width="560"
+                                height="315"
+                            ></iframe>
+                            <p>{video.description}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
-            <footer className="footer">
-                <p>Projeto desenvolvido para a disciplina de Engenharia de software II - UDESC</p>
-                <p>Alunos: Wellinton Matheus Karvat, Isabelly Ribeiro e Mateus Adada</p>
-                <p>© 2024 EducaRecicla.</p>
-            </footer>
         </div>
     );
 }

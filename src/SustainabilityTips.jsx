@@ -56,7 +56,7 @@ function SustainabilityTips() {
     ];
 
     return (
-        <div>
+        <div className="page-container">
             <header className="header">
                 <h1 className='header_h1'><a href="/">EducaRecicla</a></h1>
                 <nav>
@@ -66,21 +66,19 @@ function SustainabilityTips() {
                 </nav>
             </header>
 
-            <div className="tips-container">
-                <h1>Dicas de sustentabilidade</h1>
-                {tips.map(tip => (
-                    <div key={tip.id} className="tip">
-                        <h2>{tip.title}</h2>
-                        <p>{tip.content}</p>
-                    </div>
-                ))}
-
+            <div className="content-wrap">
+                <div className="tips-container">
+                    <h1>Dicas de sustentabilidade</h1>
+                    {tips.map(tip => (
+                        <div key={tip.id} className="tip">
+                            <h2>{tip.title}</h2>
+                            <p>{tip.content}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
-            <footer className="footer">
-                <p>Projeto desenvolvido para a disciplina de Engenharia de software II - UDESC</p>
-                <p>Alunos: Wellinton Matheus Karvat, Isabelly Ribeiro e Mateus Adada</p>
-                <p>© 2024 EducaRecicla.</p>
-            </footer>
+
+
         </div>
     );
 }

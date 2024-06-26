@@ -1,3 +1,21 @@
+/* Configurações gerais */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    flex: 1;
+}
+
 .tips-container {
     width: 90%;
     margin: auto;
@@ -19,6 +37,15 @@
 .tip p {
     font-size: 16px;
     color: #333;
+}
+
+.footer {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
+    padding: 2px;
+    background-color: #ddd;
 }
 
 a,

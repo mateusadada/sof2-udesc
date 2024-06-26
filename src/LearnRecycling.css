@@ -4,6 +4,19 @@
     padding: 20px;
 }
 
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.video {
+    flex: 1 1 45%;
+    /* Ajuste o tamanho conforme necessário */
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
 .video h2 {
     color: #4CAF50;
 }
