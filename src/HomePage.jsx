@@ -29,14 +29,14 @@ function HomePage() {
                     <p>Além dos benefícios ambientais, a reciclagem também pode impulsionar a economia. Saiba como a indústria da reciclagem gera empregos, economiza custos de produção e cria novas oportunidades de negócio.</p>
                 </section>
 
-                <p><img src="src/assets/types-of-recycling.svg" alt="Tipos de reciclagem"/></p>
+                <p><img src="/src/assets/types-of-recycling.jpg" alt="Tipos de reciclagem"/></p>
             </div>
 
             <footer className="footer">
                 <p>Projeto desenvolvido para a disciplina de Engenharia de Software II - UDESC</p>
                 <p>Acadêmicos: Isabelly Ribeiro, Mateus Adada e Wellinton Matheus Karvat</p>
                 <a href="https://github.com/mateusadada/sof2-udesc" target="_blank">
-                    <img src="./src/assets/github-logo.svg" alt="GitHub logo" className="github-logo"/>
+                    <img src="https://www.svgrepo.com/show/512317/github-142.svg" alt="GitHub logo" className="github-logo"/>
                 </a>
             </footer>
         </div>
