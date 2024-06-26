@@ -2,13 +2,13 @@
 > This repository and README are under development.
 
 <h1 align="center">Software Engineer 2 - UDESC</h1>
-<div align="center"><i>The final project - EducaRecicla</i><br><br>
+<div align="center"><i>The final project: EducaRecicla</i><br><br>
 <a href="https://github.com/mateusadada/sof2-udesc/stargazers"><img src="https://img.shields.io/github/stars/mateusadada/sof2-udesc" alt="Stars Badge"/></a>
 <a href="https://github.com/mateusadada/sof2-udesc/network/members"><img src="https://img.shields.io/github/forks/mateusadada/sof2-udesc" alt="Forks Badge"/></a>
 <a href="https://github.com/mateusadada/sof2-udesc/pulls"><img src="https://img.shields.io/github/issues-pr/mateusadada/sof2-udesc" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/mateusadada/sof2-udesc/issues"><img src="https://img.shields.io/github/issues/mateusadada/sof2-udesc" alt="Issues Badge"/></a>
 <a href="https://github.com/mateusadada/sof2-udesc"><img src="https://komarev.com/ghpvc/?username=sof2-udesc&color=447ff7&label=views" alt="Views count Badge"/></a>
-<br><a href="https://mateusadada.github.io/sof2-udesc" target="blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmateusadada.github.io%2Fsof2-udesc&logo=github" /></a>
+<br><a href="https://educa-recicla.vercel.app/" target="blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmateusadada.github.io%2Fsof2-udesc&logo=github" /></a>
 <a href="https://github.com/mateusadada/sof2-udesc/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/mateusadada/sof2-udesc?color=2b9348"></a>
 <a href="https://github.com/mateusadada/sof2-udesc/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mateusadada/sof2-udesc?color=2b9348" alt="License Badge"/></a>
 </div>
@@ -48,6 +48,7 @@ Used during the evolution of exercises and the final project:
 ## ✒️ Authors
 
 * **Mateus Adada** - *Developer and documentation* - [mateusadada](https://github.com/mateusadada)
+* **Wellinton Matheus Karvat** - *Developer* - [lettokarvat](https://github.com/lettokarvat)
 
 You can also see the list of all [collaborators](https://github.com/mateusadada/sof2-udesc/graphs/contributors) who participated in this project.
 
