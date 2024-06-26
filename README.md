@@ -2,7 +2,7 @@
 > This repository and README are under development.
 
 <h1 align="center">Software Engineer 2 - UDESC</h1>
-<div align="center"><i>The final project</i><br><br>
+<div align="center"><i>The final project - EducaRecicla</i><br><br>
 <a href="https://github.com/mateusadada/sof2-udesc/stargazers"><img src="https://img.shields.io/github/stars/mateusadada/sof2-udesc" alt="Stars Badge"/></a>
 <a href="https://github.com/mateusadada/sof2-udesc/network/members"><img src="https://img.shields.io/github/forks/mateusadada/sof2-udesc" alt="Forks Badge"/></a>
 <a href="https://github.com/mateusadada/sof2-udesc/pulls"><img src="https://img.shields.io/github/issues-pr/mateusadada/sof2-udesc" alt="Pull Requests Badge"/></a>
