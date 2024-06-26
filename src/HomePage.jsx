@@ -29,7 +29,9 @@ function HomePage() {
                     <p>Além dos benefícios ambientais, a reciclagem também pode impulsionar a economia. Saiba como a indústria da reciclagem gera empregos, economiza custos de produção e cria novas oportunidades de negócio.</p>
                 </section>
 
-                <p><img src="/src/assets/types-of-recycling.jpg" alt="Tipos de reciclagem"/></p>
+                <p id='image-main'>
+                    <img src="https://cdn.pixabay.com/photo/2024/04/18/00/26/environment-8703269_1280.png" alt="Tipos de reciclagem" width="575" height="455"/>
+                </p>
             </div>
 
             <footer className="footer">
