@@ -1,6 +1,3 @@
-> [!IMPORTANT]
-> This repository and README are under development.
-
 <h1 align="center">Software Engineer 2 - UDESC</h1>
 <div align="center"><i>The final project: EducaRecicla</i><br><br>
 <a href="https://github.com/mateusadada/sof2-udesc/stargazers"><img src="https://img.shields.io/github/stars/mateusadada/sof2-udesc" alt="Stars Badge"/></a>
@@ -23,32 +20,28 @@
 - [License](#-license)
 
 ## 🚀 Starting
-> [!NOTE]
-> In development
-
-This repository contains the final project from Software Engineer 2 course in the fourth semester.
+This repository contains the final project from Software Engineer 2 course in the fourth semester. Our project aims to create a website dedicated to social awareness, specifically focused on recycling practices. This site has been developed to provide detailed and practical information on how to recycle effectively and sustainably. In addition to offering useful tips and guidance, we also include step-by-step guides on waste separation, recycling methods, and waste reduction. Our goal is not only to educate but also to inspire positive environmental change by encouraging sustainable habits that benefit our community and the planet as a whole.
 
 ## 📚 Features
+Used throughout the evolution of the final project:
 
-> [!NOTE]
-> In development
-
-Used during the evolution of exercises and the final project:
+- Classes.
+- IDs.
+- External images, and videos.
 
 ## 📋 Prerequisites
-
-> [!NOTE]
-> In development
+No software installation on your computer is required; all you need to do is access the site directly through your browser. This ensures convenience and immediate access to the available information and resources.
 
 ## 🛠️ Built with
-
-> [!NOTE]
-> In development
+- [HTML](https://en.wikipedia.org/wiki/HTML5), [CSS](https://en.wikipedia.org/wiki/HTML5), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), and [React](https://react.dev/) - The languages used
+- [VS Code](https://code.visualstudio.com/) - Integrated development environment (IDE)
+- [Vercel](https://vercel.com/) - The platform used for deployment and hosting
 
 ## ✒️ Authors
 
 * **Mateus Adada** - *Developer and documentation* - [mateusadada](https://github.com/mateusadada)
-* **Wellinton Matheus Karvat** - *Developer* - [lettokarvat](https://github.com/lettokarvat)
+* **Wellinton Matheus Karvat** - *Developer* - [LettoKarvat](https://github.com/LettoKarvat)
+* **Isabelly Ribeiro** - *Developer*
 
 You can also see the list of all [collaborators](https://github.com/mateusadada/sof2-udesc/graphs/contributors) who participated in this project.
 
