@@ -41,7 +41,7 @@ No software installation on your computer is required; all you need to do is acc
 
 * **Mateus Adada** - *Developer and documentation* - [mateusadada](https://github.com/mateusadada)
 * **Wellinton Matheus Karvat** - *Developer* - [LettoKarvat](https://github.com/LettoKarvat)
-* **Isabelly Ribeiro** - *Developer*
+* **Isabelly Ribeiro** - *Developer* - [isa0114](https://github.com/isa0114)
 
 You can also see the list of all [collaborators](https://github.com/mateusadada/sof2-udesc/graphs/contributors) who participated in this project.
 
