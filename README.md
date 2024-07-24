@@ -5,7 +5,7 @@
 <a href="https://github.com/mateusadada/sof2-udesc/pulls"><img src="https://img.shields.io/github/issues-pr/mateusadada/sof2-udesc" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/mateusadada/sof2-udesc/issues"><img src="https://img.shields.io/github/issues/mateusadada/sof2-udesc" alt="Issues Badge"/></a>
 <a href="https://github.com/mateusadada/sof2-udesc"><img src="https://komarev.com/ghpvc/?username=sof2-udesc&color=447ff7&label=views" alt="Views count Badge"/></a>
-<br><a href="https://educa-recicla.vercel.app/" target="blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmateusadada.github.io%2Fsof2-udesc&logo=github" /></a>
+<br><a href="https://educa-recicla.vercel.app/" target="blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Feduca-recicla.vercel.app" /></a>
 <a href="https://github.com/mateusadada/sof2-udesc/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/mateusadada/sof2-udesc?color=2b9348"></a>
 <a href="https://github.com/mateusadada/sof2-udesc/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mateusadada/sof2-udesc?color=2b9348" alt="License Badge"/></a>
 </div>
